@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+   text-decoration: none;
+   color: black;
+   font-size:large;
+}
+
+li{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.linkage{
+    display: flex;
+    justify-content: end;
+}
+nav{
+    margin-top: 20px;
+    padding-right: 20px;
+    
+}
+
+a:hover{
+    border-bottom: 1px solid black;
+}
+
+section{
+    text-align: center;
+    margin-top:10%;
+}
+
+.listy{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font: bolder;
+}
+
+.g-color{
+    color: rgb(12, 36, 245);
+}
+
+.o-e-color{
+    color: brown;
+}
+
+.o-color{
+    color: rgb(252, 252, 17);
+}
+
+.l-color{
+    color: green;
+}
+
+.search{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    background-color: transparent;;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.barsearch{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.barsearch:hover{
+    
+}
+
+.search-input{
+    border-color: transparent;
+    border:white;
+}
+
+span{
+    cursor: pointer;
+    font-family: impact;
+}
+
+.search-input:active{
+    border-color: transparent;
+}
+
+.search-button{
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lang{
+    margin-top: -2px;
+    margin-left: 2px;
+}
+
+.locate{
+    border-bottom: 1px solid rgb(192, 173, 173);
+}
+
+h3{
+    position: relative;
+    vertical-align: middle;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about2{
+    display: flex;
+}
+
+.about3{
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    padding-left: 10px;
+}
+
+
+
+footer{
+    height: 123px;
+    background-color: rgb(223, 225, 226);
+    margin-top: 250px;
+}
